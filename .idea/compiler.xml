@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="soft2021spring-mal" />
+        <module name="selection-insertion-MAL" />
       </profile>
     </annotationProcessing>
   </component>
