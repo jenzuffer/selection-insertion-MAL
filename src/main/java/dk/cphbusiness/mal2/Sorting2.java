@@ -13,6 +13,7 @@ import java.util.stream.Stream;
 
 public class Sorting2 implements Algorithms {
 
+    String path1 = "C:\\Users\\Tiba\\Desktop\\math algo\\selection-insertion-MAL\\data\\shakespeare-complete-works.txt";
     private String path = "E:\\software-udvikling-anden-semester\\selection-insertion-MAL\\data\\shakespeare-complete-works.txt";
     private String delimiterPattern = "[^A-Za-z']+";
 

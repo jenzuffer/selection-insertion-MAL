@@ -11,6 +11,7 @@ public class Sorting implements Algorithms{
     @Override
     public List<String> selection() {
         String[] strings = new String[0];
+        String path1 = "E:\\software-udvikling-anden-semester\\selection-insertion-MAL\\data\\shakespeare-complete-works.txt";
         String path = "C:\\Users\\Tiba\\Desktop\\math algo\\selection-insertion-MAL\\data\\shakespeare-complete-works.txt";
         try {
             strings = FileUtility.toStringArray(path, "[^A-Za-z']+");
