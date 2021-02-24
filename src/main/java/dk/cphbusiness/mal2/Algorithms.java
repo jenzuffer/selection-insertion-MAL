@@ -4,4 +4,5 @@ import java.util.List;
 
 public interface Algorithms {
     List<String> selection();
+    List<String> selectionTakingAList(List<String> list);
 }

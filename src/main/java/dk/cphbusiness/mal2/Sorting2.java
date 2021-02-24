@@ -1,6 +1,7 @@
 package dk.cphbusiness.mal2;
 
 import dk.cphbusiness.mal.utils.Stopwatch;
+import kotlin.NotImplementedError;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -22,7 +23,7 @@ public class Sorting2 implements Algorithms {
     public List<String> selection() {
         FileInputStream inputStream = null;
         try {
-            inputStream = new FileInputStream(path);
+            inputStream = new FileInputStream(path1);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
@@ -71,6 +72,11 @@ public class Sorting2 implements Algorithms {
             System.out.println("finished with sw time: ");
         }
         return stringList;
+    }
+
+    @Override
+    public List<String> selectionTakingAList(List<String> list) {
+        throw new NotImplementedError();
     }
 
 
